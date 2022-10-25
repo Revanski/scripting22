@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Overpass&display=swap');
+
+html {
+	font-family: 'Catamaran', sans-serif;
+	background-color: #377CCF;
+	font-size: 15pt;
+}
+
+
+
+h1, h2{
+	font-family: 'Overpass', sans-serif;
+	font-size: 35pt;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+body {background-color: #377CCF}
+
+#logo {
+	width: 22%;
+	float: left;
+	margin: 100;
+}
+
+a {
+	color: cornflowerblue;
+	text-decoration: underline;
+	text-decoration-color: darkorange;
+}
+
+a:hover{
+	background-color: darkorange;
+	color: black;
+	transition-duration: 0.2s;
+}
+
+a:active{
+	color: white;
+}
+
+a:visited{
+	color: navy;
+	text-decoration: none;
+}
+
+#about h2 p{
+	float: left;		
+}
+
+#about {
+	overflow: hidden
+}
+#about img{
+	float: right
+}
+
+header{
+	background-color: #377CCF;
+	color: white;
+	font-size: 30pt;
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	border: 0;
+	
+	/* padding shortcut works the same as margin - top, right, bottom, left. or top and bottom, right and left */
+	
+	padding: 0px 0px;
+	overflow: hidden;
+}
+header p {
+	color:lightgray;
+	text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#title {
+	padding-top: 100px;
+	padding-bottom: 0px;
+	font-size: 70pt;
+}
+
+h1 {color: darkorange;
+	text-shadow: 2px 2px 2px navy;}
+
+section{
+	/*all the default styels for all secetions*/
+	background-color: #4A4D51;
+	max-width: 70%;
+	/*text color*/
+	color: white;
+	/*automaticly centers element*/
+	margin: 0 auto;
+	padding: 30px;	
+	/*this will make the section the size of all the content even thoes floating*/
+	overflow: hidden;
+}
+
+
+footer{
+	background-color: darkorange;
+	color: white;
+	text-align: center;
+	padding:30px;
+	
+}
+footer p{
+	font-size: 15pt;
+}
+footer a {
+	color:#377CCF;
+	font-size: 15pt;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: auto;
+  overflow: hidden;
+  background-color: darkorange;
+}
+nav li {
+  float: left;
+}
+nav li a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	transition-duration: .1s;
+}
+nav li a:hover {
+  background-color: #377CCF;
+}
+.sticky{
+	position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+
+
+.bruh{
+	max-width: 100%;
+	padding: 10px;
+	outline-style: groove;
+	outline-color: #FFA138;
+	background-color: aliceblue;
+	color: #323232
+	
+}
+#fence{
+	float:right;
+	margin-left: 40px;
+}
+#pylon{
+	float:left;
+	margin-right: 40px;
+}
+#sitting{
+	max-width: 20%;
+	float:right;
+	margin-left: 20px;
+}
+.swap{
+	background-color:aliceblue;
+	color: #323232
+}
+
+
+

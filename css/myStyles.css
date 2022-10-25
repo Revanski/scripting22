@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Work+Sans:wght@300&display=swap');
+
+/* colors 
+	D8D8D8 - grey
+	B8E4F0 - blue
+	92CC89 - green
+		C2E0B2 - light green
+	F2798F - red
+*/
+
+body {
+	background-color: #F2798F
+}
+p {
+	font-size: 16pt;
+}
+a:hover {
+	color: black;
+}
+a:visited {
+	
+}
+
+
+/* all id tags */
+
+.titular {
+	background-color: #B8E4F0;
+}
+
+.navbar {
+	background-color: #B8E4F0
+}
+
+
+/* all class tags*/
+
+	#welcome {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 50pt;
+	}
+	#navigation{
+		background-color: #F2798F;
+	}
+	#about {
+		background-color: #D8D8D8;
+		background-size: cover;
+		background-position: center;
+		font-family: 'Work Sans', sans-serif;
+	}
+	#hobbies {
+		font-family: 'Work Sans', sans-serif;
+		background-size: cover;
+		background-position: center;
+	}
+	#musicish {
+			background-color: #D8D8D8;
+			background-size: cover;
+			background-position: center;
+			font-family: 'Work Sans', sans-serif;
+		}
+	#singing {
+			font-size: 10pt;
+	}
+	#origins {
+			font-family: 'Work Sans', sans-serif;
+			background-size: cover;
+			background-position: center;
+		}
+
+/* navbar css */
+	ul a {
+		color: black;
+		font-size: 15pt;
+	}
+	ul a:hover{
+		background-color: #B8E4F0;
+		color: #F2798F;
+		font-size: 17pt;
+	}
