@@ -31,6 +31,9 @@ a:visited {
 	background-color: #B8E4F0;
 }
 
+.navbar {
+	background-color: #B8E4F0
+}
 
 
 /* all class tags*/
@@ -53,7 +56,20 @@ a:visited {
 		background-size: cover;
 		background-position: center;
 	}
-
+	#musicish {
+			background-color: #D8D8D8;
+			background-size: cover;
+			background-position: center;
+			font-family: 'Work Sans', sans-serif;
+		}
+	#singing {
+			font-size: 10pt;
+	}
+	#origins {
+			font-family: 'Work Sans', sans-serif;
+			background-size: cover;
+			background-position: center;
+		}
 
 /* navbar css */
 	ul a {
