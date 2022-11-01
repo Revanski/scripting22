@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* if you want a dif pic/dif look in each header on different pages, use ID rather than just header css tag. */
+#homeMasthead {
+/*	background-color: #220098;*/
+	background-image: url("../images/backgrounds/Convocation-Large.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#serviceMasthead {
+	background-image: url("../images/antEater.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+h2{
+	color: #3940c2;
+}
+
+.weiner {
+	background-color: red;
+}
+
+.height80 {
+	height: 80vh;
+}
+
+.display-1 {
+	font-size: 32pt;
+}
+
+footer {
+	background-color: saddlebrown;
+	color: aliceblue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: white;
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	.display-1 {
+	font-size: 60pt; 
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+	#homeMasthead {
+		background-image: url("../images/backgrounds/Convocation-mobile.jpg")
+	}
+	.display-1 {
+	font-size: 80pt; 
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 768px) {
+	#serviceMasthead {
+		background-image: url("../images/ohDeer.jpg")
+	}
+	.display-1 {
+	font-size: 80pt; 
+	}
+}
+
+
+
+
