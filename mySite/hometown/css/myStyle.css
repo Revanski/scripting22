@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&family=Vollkorn&display=swap');
+
+/* 
+color palette hexadecimals
+
+navy: 006BA1
+light blue: 05A0ED
+lightest blue: 85D6FF
+
+brown: A35A00
+orange/brown: F09322
+
+*/
+
+
+.maintxt {
+    background-image: url("../images/stream.jpg");
+    background-size: cover;
+}
+
+/* attempted text overlay
+
+
+.maintxt {
+	position: relative
+}
+
+.maintxt > img, .overlay-text {
+	position:absolute
+}
+
+.overlay-text {
+	padding: 150px 50px
+}
+
+
+*/
+
+
+.niceLookingFont {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 17pt;
+}
+
+.welcome {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 80pt;
+	border-color: #535353;
+}
+
+.bodyText {
+	font-family: 'Vollkorn', serif;
+	font-size: 17pt;
+}
+
+.badgeText {
+	font-size: 25pt;
+	font-family: 'Vollkorn', serif;
+}
+
+
+#homeMasthead {
+/*	background-color: #220098;*/
+	background-image: url("../images/mountain1.jpg");
+	background-size: cover;
+	background-position: center;
+	color:#EBEBEB;
+}
+
+#geographyMasthead {
+	background-image: url("../images/goldenLarge.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#peopleMasthead {
+	background-image: url("../images/person2.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#economyMasthead {
+	background-image: url("../images/railroad.jpg");
+	background-size: cover;
+	background-position: center;
+	color: aliceblue;
+}
+
+#attractionsMasthead {
+	background-image: url("../images/coffee.jpg");
+	background-size: cover;
+	background-position: center;
+	color: aliceblue;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+	background-color: #05A0ED;
+}
+
+.height {
+	height: 40vh;
+}
+
+.display-1 {
+	font-size: 32pt;
+}
+
+footer {
+	background-color: #D17300;
+	color: aliceblue;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: blue;
+}
+a:active {
+	color: white;
+}
+
+
+
+@media only screen and (max-width: 299px) {
+	.welcome {
+	font-size: 30pt; 
+	}
+}
+
+@media only screen and (min-width: 300px) {
+	.welcome {
+	font-size: 40pt; 
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+	.welcome {
+	font-size: 70pt; 
+	}
+	.badgeText {
+	font-size: 15pt;
+	}
+}
+
+
+
+/* Medium devices (laptops/desktops, 768px and below) */
+@media only screen and (min-width: 766px) {
+	.badgeText {
+	font-size: 10pt;
+	}
+
+	
+}
+
+/* Large devices (laptops/desktops, 992px and below) */
+@media only screen and (min-width: 991px) {
+
+	.welcome {
+	font-size: 80pt; 
+	}
+	.badgeText {
+	font-size: 20pt;
+	}
+}
+
+
+
+
