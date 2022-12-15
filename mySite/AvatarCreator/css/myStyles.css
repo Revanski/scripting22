@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*outside div that is wrapped around all customization divs needs to be relatively positioned with a set height*/
+#banner{
+	background-color: aqua
+}
+
+#builder{
+    position: relative;
+    height: 650px;
+	max-height: 650px;
+}
+
+
+#face, #glasses, #hat, #shirt{
+    position: absolute;
+}
